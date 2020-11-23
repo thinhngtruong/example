@@ -8,8 +8,8 @@
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/Contact.css">
-    <title>News</title>
+    <link rel="stylesheet" href="css/A-Z-List.css">
+    <title>A - Z List</title>
 </head>
 
 <body>
@@ -65,7 +65,7 @@
                                             </div>
                                         </li>
                                     </ul>
-                                </li>
+                                </li> 
                                 <li><a href="Series.html">tv - series</a></li>
                                 <li><a href="News.html">news</a></li>
                                 <li class="dropdown">
@@ -177,65 +177,148 @@
     <!-- header col-12 -->
     <!-- ------------------------------------------------------------------------------- -->
     <div class="banner-bottom">
-        <div class="banner-phone col-3"><i class="fas fa-phone-alt"></i> (+000) 009 455 4088</div>
-        <div class="banner-btn col-3">
-            <a href="">LOGIN</a>
-            <a href="">REGISTER</a>
+        <div class="banner-phone"><i class="fas fa-phone-alt"></i> (+000) 009 455 4088</div>
+        <div class="banner-btn">
+            <ul>
+                <li>LOGIN</li>
+                <li>REGISTER</li>
+            </ul>
         </div>
-        <div class="banner-tag col-6"></div>
+        <div class="banner-tag"></div>
     </div>
-    <div class="back-home col-12">
+    <div class="back-home">
         <ul>
             <li><a href="Home.html">HOME</a><i>//</i></li>
-            <li>CONTACT</li>
+            <li>A-Z LIST</li>
         </ul>
     </div>
     <div class="title-head">
-        <h3>CONTACT</h3>
+        <h3>MOVIE LIST</h3>
         <p>ADD SHORT DESCRIPTION</p>
     </div>
-    <div class="main-content">
-        <div class="form-contact-us">
-            <form action="#">
-                <div class="col-6 input-info">
-                    <span class="input-name">
-                        <input type="text" id="your-name" placeholder=""required="">
-                        <label class="label-your-name" for="your-name">
-                            <span>Your Name</span>
-                        </label>
-                    </span>
-                    <span class="input-email">
-                        <input type="email" id="your-email" placeholder=""required="">
-                        <label class="label-email" for="your-email">
-                            <span>Your Email</span>
-                        </label>
-                    </span>
-                    <span class="input-phone">
-                        <input type="text" id="your-phone" placeholder=""required="">
-                        <label class="label-phone" for="your-phone">
-                            <span>Number</span>
-                        </label>
-                    </span>
-        
-                </div>
-                <div class="col-6 input-message">
-                    <textarea name="Message" placeholder="Your Message" required=""></textarea>
-                    <input type="submit" value="Submit">
-                </div>
-            </form>
-            <div class="contact-info">
-                <ul>
-                    <li><i class="fa fa-map-marker"></i>United States,Utah 10009, USA</li>
-                    <li><i class="fa fa-phone"></i> +033 111 222 4567</li>
-                    <li><i class="fa fa-envelope"></i><a href="mailto:nguyenhoaiphuvenus@gmail.com">
-                            mail@example.com</a></li>
-                </ul>
-        
-            </div>
-        </div>   
-    </div>
-    <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12947831.742778081!2d-95.665!3d37.599999999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited+States!5e0!3m2!1sen!2sin!4v1422444552833"></iframe>
+    <div class="movie-list-content">
+        <div class="nav-btn-a-z">
+            <ul id="btn-a-z">
+                <li><a href="#" id="btn-all">ALL</a></li>
+                <li><a href="#">A</a></li>
+                <li><a href="#">B</a></li>
+                <li><a href="#">C</a></li>
+                <li><a href="#">D</a></li>
+                <li><a href="#">E</a></li>
+                <li><a href="#">F</a></li>
+                <li><a href="#">G</a></li>
+                <li><a href="#">H</a></li>
+                <li><a href="#">I</a></li>
+                <li><a href="#">J</a></li>
+                <li><a href="#">K</a></li>
+                <li><a href="#">L</a></li>
+                <li><a href="#">M</a></li>
+                <li><a href="#">N</a></li>
+                <li><a href="#">O</a></li>
+                <li><a href="#">P</a></li>
+                <li><a href="#">Q</a></li>
+                <li><a href="#">R</a></li>
+                <li><a href="#">S</a></li>
+                <li><a href="#">T</a></li>
+                <li><a href="#">U</a></li>
+                <li><a href="#">V</a></li>
+                <li><a href="#">W</a></li>
+                <li><a href="#">X</a></li>
+                <li><a href="#">Y</a></li>
+                <li><a href="#">Z</a></li>
+            </ul>
+            <h4>Search Results: <span id="count-list">25</span></h4>
+
+            <table class="tb-movies-list">
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Movie Name</th>
+                        <th>Year</th>
+                        <th>Status</th>
+                        <th>Country</th>
+                        <th>Genre</th>
+                        <th>Rating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-th="No."><span class="count-row">1</span></td>
+                        <td data-th="Movie Name" class="col-img"><span><a href="#"><img src="../img/m1.jpg"
+                                        alt="Swiss Army Man"> <span>Swiss Army Man</span></a></span></td>
+                        <td data-th="Year"><span>2016</span></td>
+                        <td data-th="Status"><span>HD</span></td>
+                        <td data-th="Country">
+                            <span><a href="#">United Kingdom</a></span>
+                        </td>
+                        <td data-th="Genre"><span><a href="#">Drama</a></span></td>
+                        <td data-th="Rating"><span>7.0</span></td>
+                    </tr>
+                    <tr>
+                        <td data-th="No."><span class="count-row">2</span></td>
+                        <td data-th="Movie Name" class="col-img"><span><a href="#"><img src="../img/m1.jpg"
+                                        alt="Swiss Army Man"> <span>Swiss Army Man</span></a></span></td>
+                        <td data-th="Year"><span>2016</span></td>
+                        <td data-th="Status"><span>HD</span></td>
+                        <td data-th="Country">
+                            <span><a href="#">United Kingdom</a></span>
+                        </td>
+                        <td data-th="Genre"><span><a href="#">Drama</a></span></td>
+                        <td data-th="Rating"><span>7.0</span></td>
+                    </tr>
+                    <tr>
+                        <td data-th="No."><span class="count-row">3</span></td>
+                        <td data-th="Movie Name" class="col-img"><span><a href="#"><img src="../img/m1.jpg"
+                                        alt="Swiss Army Man"> <span>Swiss Army Man</span></a></span></td>
+                        <td data-th="Year"><span>2016</span></td>
+                        <td data-th="Status"><span>HD</span></td>
+                        <td data-th="Country">
+                            <span><a href="#">United Kingdom</a></span>
+                        </td>
+                        <td data-th="Genre"><span><a href="#">Drama</a></span></td>
+                        <td data-th="Rating"><span>7.0</span></td>
+                    </tr>
+                    <tr>
+                        <td data-th="No."><span class="count-row">4</span></td>
+                        <td data-th="Movie Name" class="col-img"><span><a href="#"><img src="../img/m1.jpg"
+                                        alt="Swiss Army Man"> <span>Swiss Army Man</span></a></span></td>
+                        <td data-th="Year"><span>2016</span></td>
+                        <td data-th="Status"><span>HD</span></td>
+                        <td data-th="Country">
+                            <span><a href="#">United Kingdom</a></span>
+                        </td>
+                        <td data-th="Genre"><span><a href="#">Drama</a></span></td>
+                        <td data-th="Rating"><span>7.0</span></td>
+                    </tr>
+                    <tr>
+                        <td data-th="No."><span class="count-row">5</span></td>
+                        <td data-th="Movie Name" class="col-img"><span><a href="#"><img src="../img/m1.jpg"
+                                        alt="Swiss Army Man"> <span>Swiss Army Man</span></a></span></td>
+                        <td data-th="Year"><span>2016</span></td>
+                        <td data-th="Status"><span>HD</span></td>
+                        <td data-th="Country">
+                            <span><a href="#">United Kingdom</a></span>
+                        </td>
+                        <td data-th="Genre"><span><a href="#">Drama</a></span></td>
+                        <td data-th="Rating"><span>7.0</span></td>
+                    </tr>
+                    <tr>
+                        <td data-th="No."><span class="count-row">6</span></td>
+                        <td data-th="Movie Name" class="col-img"><span><a href="#"><img src="../img/m1.jpg"
+                                        alt="Swiss Army Man"> <span>Swiss Army Man</span></a></span></td>
+                        <td data-th="Year"><span>2016</span></td>
+                        <td data-th="Status"><span>HD</span></td>
+                        <td data-th="Country">
+                            <span><a href="#">United Kingdom</a></span>
+                        </td>
+                        <td data-th="Genre"><span><a href="#">Drama</a></span></td>
+                        <td data-th="Rating"><span>7.0</span></td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </div>
     </div>
     <footer>
         <div class="contact">
@@ -376,7 +459,7 @@
     </footer>
     <p id="back-top"></p>
     <script src="../js/all.js"></script>
+    <script src="../js/A-Z-List.js"></script>
 </body>
 
 </html>
-
