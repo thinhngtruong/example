@@ -1,0 +1,2436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/Home.css">
+    <title>Reason Movie</title>
+</head>
+
+<body>
+    <!-- header col-12 -->
+    <div class="header">
+        <div class="slidershow">
+
+            <div class="slides">
+                <input type="radio" name="r" id="r1" checked>
+                <input type="radio" name="r" id="r2">
+                <input type="radio" name="r" id="r3">
+                <input type="radio" name="r" id="r4">
+                <div class="slide">
+                    <img src="../img/1.jpg" alt="" class="img-animation" id="first-slide">
+                    <img src="../img/2.jpg" alt="" class="img-animation">
+                    <img src="../img/3.jpg" alt="" class="img-animation">
+                    <img src="../img/4.jpg" alt="" class="img-animation">
+                </div>
+            </div>
+
+            <div class="navigation">
+                <label for="r1" class="bar" id="click1"></label>
+                <label for="r2" class="bar" id="click2"></label>
+                <label for="r3" class="bar" id="click3"></label>
+                <label for="r4" class="bar" id="click4"></label>
+            </div>
+        </div>
+        <!-- nav-menu-header -->
+        <div class="nav-menu-header">
+            <!-- nav-main -->
+            <div class="nav-main">
+                <!-- nav-content -->
+                <div class="nav-content">
+                    <nav>
+                        <h1 class="menu-logo">
+                            <a href="#"><span>M</span>ovies <span>P</span>ro</a>
+                        </h1>
+                        <!-- menu -->
+                        <div class="menu-dropdown">
+                            <ul class="nav-dropdown">
+                                <li><a href="Home.html">Home</a></li>
+                                <li class="dropdown genre">
+                                    <a href="#">Genre <span><i class="fas fa-caret-down"></i></span></a>
+                                    <ul class="list-item-genre">
+                                        <li>
+                                            <div class="col">
+                                                <ul class="col-list">
+                                                    <li><a href="genre.html">Action</a></li>
+                                                    <li><a href="genre.html">Biography</a></li>
+                                                    <li><a href="genre.html">Crime</a></li>
+                                                    <li><a href="genre.html">Family</a></li>
+                                                    <li><a href="horror.html">Horror</a></li>
+                                                    <li><a href="genre.html">Romance</a></li>
+                                                    <li><a href="genre.html">Sports</a></li>
+                                                    <li><a href="genre.html">War</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <ul class="col-list">
+                                                    <li><a href="genre.html">Adventure</a></li>
+                                                    <li><a href="comedy.html">Comedy</a></li>
+                                                    <li><a href="genre.html">Documentary</a></li>
+                                                    <li><a href="genre.html">Fantasy</a></li>
+                                                    <li><a href="genre.html">Thriller</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <ul class="col-list">
+                                                    <li><a href="genre.html">Animation</a></li>
+                                                    <li><a href="genre.html">Costume</a></li>
+                                                    <li><a href="genre.html">Drama</a></li>
+                                                    <li><a href="genre.html">History</a></li>
+                                                    <li><a href="genre.html">Musical</a></li>
+                                                    <li><a href="genre.html">Psychological</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="Serise.html">tv - series</a></li>
+                                <li><a href="News.html">news</a></li>
+                                <li class="dropdown">
+                                    <a href="#">Country <span><i class="fas fa-caret-down"></i></span></a>
+                                    <ul class="list-item-country">
+                                        <li>
+                                            <div class="col">
+                                                <ul class="col-list">
+                                                    <li><a href="genre.html">Asia</a></li>
+                                                    <li><a href="genre.html">France</a></li>
+                                                    <li><a href="genre.html">Taiwan</a></li>
+                                                    <li><a href="genre.html">United States</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <ul class="col-list">
+                                                    <li><a href="genre.html">China</a></li>
+                                                    <li><a href="genre.html">HongCong</a></li>
+                                                    <li><a href="genre.html">Japan</a></li>
+                                                    <li><a href="genre.html">Thailand</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <ul class="col-list">
+                                                    <li><a href="genre.html">Euro</a></li>
+                                                    <li><a href="genre.html">India</a></li>
+                                                    <li><a href="genre.html">Korea</a></li>
+                                                    <li><a href="genre.html">United Kingdom</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="A-Z-List.html">A - z list</a></li>
+                                <li><a href="Contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <!-- menu -->
+                        <div class="menu-search">
+                            <a href="#"><span><i class="fas fa-search" onclick="openSearch()"
+                                        id="close-search"></i></span></a>
+                        </div>
+                    </nav>
+                </div>
+                <!-- nav-content -->
+            </div>
+            <!-- nav-main -->
+        </div>
+        <!-- nav-menu-header -->
+        <div class="main-header col-12 middle">
+            <h3>LATEST <span>ON</span>LINE <span>MO</span>VIES</h3>
+            <h4>IN SPACE NO ONE CAN HEAR YOU SCREAM.</h4>
+            <a href="#">Watch Trailer</a>
+        </div>
+        <div id="search" class="input-search col-12">
+            <form action="#" method="post">
+                <input name="Search" type="search" placeholder="Search...">
+            </form>
+        </div>
+
+        <div class="popup-trailer middle col-5">
+            <span>X</span>
+            <iframe
+                src="https://player.vimeo.com/video/165197924?color=ffffff&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
+        </div>
+        <div class="menu-icon" id="icon-responsive">
+            <div class="bar-top"></div>
+            <div class="bar-mid"></div>
+            <div class="bar-bottom"></div>
+        </div>
+        <ul class="menu-responsive">
+            <li><a href="">HOME</a> </li>
+            <li class="li-dropdown-genre">
+                <a href="#">GENRE <span><i class="fas fa-caret-down"></i></span></a>
+                <ul class="list-responsive">
+                    <li><a href="genre.html">Action</a></li>
+                    <li><a href="genre.html">Biography</a></li>
+                    <li><a href="genre.html">Crime</a></li>
+                    <li><a href="genre.html">Family</a></li>
+                    <li><a href="horror.html">Horror</a></li>
+                    <li><a href="genre.html">Romance</a></li>
+                    <li><a href="genre.html">Sports</a></li>
+                    <li><a href="genre.html">War</a></li>
+                    <li><a href="genre.html">Adventure</a></li>
+                    <li><a href="comedy.html">Comedy</a></li>
+                    <li><a href="genre.html">Documentary</a></li>
+                    <li><a href="genre.html">Fantasy</a></li>
+                    <li><a href="genre.html">Thriller</a></li>
+                    <li><a href="genre.html">Animation</a></li>
+                    <li><a href="genre.html">Costume</a></li>
+                    <li><a href="genre.html">Drama</a></li>
+                    <li><a href="genre.html">History</a></li>
+                    <li><a href="genre.html">Musical</a></li>
+                    <li><a href="genre.html">Psychological</a></li>
+                    <li><a href="genre.html">Euro</a></li>
+                    <li><a href="genre.html">India</a></li>
+                    <li><a href="genre.html">Korea</a></li>
+                    <li><a href="genre.html">United Kingdom</a></li>
+                </ul>
+            </li>
+            <li><a href="">TV-SERIES</a> </li>
+            <li><a href="">NEWS</a></li>
+            <li class="li-dropdown-country">
+                <a href="#">COUNTRY <span><i class="fas fa-caret-down"></i></span></a>
+                <ul class="list-responsive">
+                    <li><a href="genre.html">Asia</a></li>
+                    <li><a href="genre.html">France</a></li>
+                    <li><a href="genre.html">Taiwan</a></li>
+                    <li><a href="genre.html">United States</a></li>
+                    <li><a href="genre.html">China</a></li>
+                    <li><a href="genre.html">HongCong</a></li>
+                    <li><a href="genre.html">Japan</a></li>
+                    <li><a href="genre.html">Thailand</a></li>
+                </ul>
+            </li>
+            <li><a href="">A-Z LIST</a></li>
+            <li><a href="">CONTACT </a></li>
+        </ul>
+
+
+
+
+
+
+        <div class="popup-login">
+            <button type="button" class="close-login-popup">×</button>
+            <h4>LOGIN</h4>
+            <div class="form-login">
+                <form action="#">
+                    <input type="email" name="email" placeholder="E-mail">
+                    <input type="password" name="password" placeholder="Password">
+                    <input type="submit" value="LOGIN NOW">
+                    <div class="forgot-remember">
+                        <label class="checkbox"><input type="checkbox" name="checkbox">Remember me</label>
+                        <a href="#" class="forgot">Forgot Password?</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+    <!-- header col-12 -->
+    <!-- ------------------------------------------------------------------------------- -->
+    <div class="banner-bottom">
+        <div class="banner-phone"><i class="fas fa-phone-alt"></i> (+000) 009 455 4088</div>
+        <div class="banner-btn">
+            <ul>
+                <li id="banner-btn-login">LOGIN</li>
+                <li>REGISTER</li>
+            </ul>
+        </div>
+        <div class="banner-tag"></div>
+    </div>
+    <!-- ------------------------------------------------------------------------------- -->
+    <div class="main-content">
+        <div class="btn-mid col-12">
+            <ul>
+                <li>RECENT</li>
+                <li class="responsive-border">POPULARITY</li>
+                <li>TOP RATING</li>
+            </ul>
+        </div>
+        <div class="btn-mid-responsive">
+            <h2 class="sort-down">RECENT <span><i class="fas fa-sort-down"></i></span></h2> 
+            <div class="col-12 start-movie-responsive recent">
+                <div class="col-5 storks-left">
+                    <div class="video-play col-12">
+                        <img src="../img/1.jpg" alt="Storks Left" id="hide-img">
+                        <iframe id="open-iframe" width="100%" height="100%" src="https://www.youtube.com/embed/Q6iK6DjV_iE"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <span id="hide-btn-play" class="middle"><i onclick="myTrailer()"
+                                class="far fa-play-circle"></i></span>
+                    </div>
+                    <div class="video-play-text col-12">
+                        <p>FORCE 2</p>
+                        <p>
+                            <span class="col-2 float-left color-bold">Story Line</span>
+                            <span class="col-1 float-left text-center color-bold">:</span>
+                            <span class="col-9 float-left color-opacity">Presenting the official trailer of Force 2 starring
+                                John Abraham, Sonakshi Sinha and Tahir Raj Bhasin A film by Abhinay Deo, Produced by Vipul
+                                Amrutlal Shah, JA entertainment Pvt. Ltd....</span>
+                        </p>
+                        <p>
+                            <span class="col-2 float-left color-bold">Release On</span>
+                            <span class="col-1 float-left text-center color-bold">:</span>
+                            <span class="col-9 float-left color-opacity">Sep 29, 2016</span>
+                        </p>
+                        <p>
+                            <span class="col-2 float-left color-bold">Genres</span>
+                            <span class="col-1 float-left text-center color-bold">:</span>
+                            <span class="col-9 float-left color-opacity">Drama | Adventure | Family</span>
+                        </p>
+                        <p>
+                            <span class="col-2 float-left color-bold">Star Rating</span>
+                            <span class="col-1 float-left text-center color-bold">:</span>
+                            <span class="col-9 float-left color-opacity rate-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-7 list-movie-top">
+                    <div class="poster-movie-tb col-poster-tb">
+                        <a href="" class="hover-poster-tb">
+                            <img src="../img/m1.jpg" alt="">
+                            <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                            <span class="lable-new">NEW</span>
+                        </a>
+                        <div class="content-poster-tb">
+                            <h6><a href="">Swiss Army Man</a></h6>
+                            <div class="detail-movie-tb">
+                                <p>2016</p>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poster-movie-tb col-poster-tb">
+                        <a href="" class="hover-poster-tb">
+                            <img src="../img/m2.jpg" alt="">
+                            <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                            <span class="lable-new">NEW</span>
+                        </a>
+                        <div class="content-poster-tb">
+                            <h6><a href="">Me Before you</a></h6>
+                            <div class="detail-movie-tb">
+                                <p>2016</p>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poster-movie-tb col-poster-tb">
+                        <a href="" class="hover-poster-tb">
+                            <img src="../img/m3.jpg" alt="">
+                            <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                            <span class="lable-new">NEW</span>
+                        </a>
+                        <div class="content-poster-tb">
+                            <h6><a href="">Deadpool</a></h6>
+                            <div class="detail-movie-tb">
+                                <p>2016</p>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poster-movie-tb col-poster-tb">
+                        <a href="" class="hover-poster-tb">
+                            <img src="../img/m4.jpg" alt="">
+                            <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                            <span class="lable-new">NEW</span>
+                        </a>
+                        <div class="content-poster-tb">
+                            <h6><a href="">Rogue One</a></h6>
+                            <div class="detail-movie-tb">
+                                <p>2016</p>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poster-movie-tb col-poster-tb">
+                        <a href="" class="hover-poster-tb">
+                            <img src="../img/m5.jpg" alt="">
+                            <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                            <span class="lable-new">NEW</span>
+                        </a>
+                        <div class="content-poster-tb">
+                            <h6><a href="">Storks</a></h6>
+                            <div class="detail-movie-tb">
+                                <p>2016</p>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poster-movie-tb col-poster-tb">
+                        <a href="" class="hover-poster-tb">
+                            <img src="../img/m6.jpg" alt="">
+                            <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                            <span class="lable-new">NEW</span>
+                        </a>
+                        <div class="content-poster-tb">
+                            <h6><a href="">Hopeless</a></h6>
+                            <div class="detail-movie-tb">
+                                <p>2016</p>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poster-movie-tb col-poster-tb">
+                        <a href="" class="hover-poster-tb">
+                            <img src="../img/m7.jpg" alt="">
+                            <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                            <span class="lable-new">NEW</span>
+                        </a>
+                        <div class="content-poster-tb">
+                            <h6><a href="">Mechanic</a></h6>
+                            <div class="detail-movie-tb">
+                                <p>2016</p>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poster-movie-tb col-poster-tb">
+                        <a href="" class="hover-poster-tb">
+                            <img src="../img/m8.jpg" alt="">
+                            <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                            <span class="lable-new">NEW</span>
+                        </a>
+                        <div class="content-poster-tb">
+                            <h6><a href="">Timeless</a></h6>
+                            <div class="detail-movie-tb">
+                                <p>2016</p>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="sort-down">POPULARITY <span><i class="fas fa-sort-down"></i></span></h2>
+            <div class="col-12 start-movie-responsive popularity">
+                <div class="col-5 storks-left">
+                    <div class="video-play col-12">
+                        <img src="../img/1.jpg" alt="Storks Left" id="hide-img">
+                        <iframe id="open-iframe" width="100%" height="100%" src="https://www.youtube.com/embed/Q6iK6DjV_iE"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <span id="hide-btn-play" class="middle"><i onclick="myTrailer()"
+                                class="far fa-play-circle"></i></span>
+                    </div>
+                    <div class="video-play-text col-12">
+                        <p>FORCE 2</p>
+                        <p>
+                            <span class="col-2 float-left color-bold">Story Line</span>
+                            <span class="col-1 float-left text-center color-bold">:</span>
+                            <span class="col-9 float-left color-opacity">Presenting the official trailer of Force 2 starring
+                                John Abraham, Sonakshi Sinha and Tahir Raj Bhasin A film by Abhinay Deo, Produced by Vipul
+                                Amrutlal Shah, JA entertainment Pvt. Ltd....</span>
+                        </p>
+                        <p>
+                            <span class="col-2 float-left color-bold">Release On</span>
+                            <span class="col-1 float-left text-center color-bold">:</span>
+                            <span class="col-9 float-left color-opacity">Sep 29, 2016</span>
+                        </p>
+                        <p>
+                            <span class="col-2 float-left color-bold">Genres</span>
+                            <span class="col-1 float-left text-center color-bold">:</span>
+                            <span class="col-9 float-left color-opacity">Drama | Adventure | Family</span>
+                        </p>
+                        <p>
+                            <span class="col-2 float-left color-bold">Star Rating</span>
+                            <span class="col-1 float-left text-center color-bold">:</span>
+                            <span class="col-9 float-left color-opacity rate-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-7 list-movie-top">
+                    <div class="poster-movie-tb col-poster-tb">
+                        <a href="" class="hover-poster-tb">
+                            <img src="../img/m1.jpg" alt="">
+                            <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                            <span class="lable-new">NEW</span>
+                        </a>
+                        <div class="content-poster-tb">
+                            <h6><a href="">Swiss Army Man</a></h6>
+                            <div class="detail-movie-tb">
+                                <p>2016</p>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poster-movie-tb col-poster-tb">
+                        <a href="" class="hover-poster-tb">
+                            <img src="../img/m2.jpg" alt="">
+                            <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                            <span class="lable-new">NEW</span>
+                        </a>
+                        <div class="content-poster-tb">
+                            <h6><a href="">Me Before you</a></h6>
+                            <div class="detail-movie-tb">
+                                <p>2016</p>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poster-movie-tb col-poster-tb">
+                        <a href="" class="hover-poster-tb">
+                            <img src="../img/m3.jpg" alt="">
+                            <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                            <span class="lable-new">NEW</span>
+                        </a>
+                        <div class="content-poster-tb">
+                            <h6><a href="">Deadpool</a></h6>
+                            <div class="detail-movie-tb">
+                                <p>2016</p>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poster-movie-tb col-poster-tb">
+                        <a href="" class="hover-poster-tb">
+                            <img src="../img/m4.jpg" alt="">
+                            <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                            <span class="lable-new">NEW</span>
+                        </a>
+                        <div class="content-poster-tb">
+                            <h6><a href="">Rogue One</a></h6>
+                            <div class="detail-movie-tb">
+                                <p>2016</p>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poster-movie-tb col-poster-tb">
+                        <a href="" class="hover-poster-tb">
+                            <img src="../img/m5.jpg" alt="">
+                            <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                            <span class="lable-new">NEW</span>
+                        </a>
+                        <div class="content-poster-tb">
+                            <h6><a href="">Storks</a></h6>
+                            <div class="detail-movie-tb">
+                                <p>2016</p>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poster-movie-tb col-poster-tb">
+                        <a href="" class="hover-poster-tb">
+                            <img src="../img/m6.jpg" alt="">
+                            <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                            <span class="lable-new">NEW</span>
+                        </a>
+                        <div class="content-poster-tb">
+                            <h6><a href="">Hopeless</a></h6>
+                            <div class="detail-movie-tb">
+                                <p>2016</p>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poster-movie-tb col-poster-tb">
+                        <a href="" class="hover-poster-tb">
+                            <img src="../img/m7.jpg" alt="">
+                            <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                            <span class="lable-new">NEW</span>
+                        </a>
+                        <div class="content-poster-tb">
+                            <h6><a href="">Mechanic</a></h6>
+                            <div class="detail-movie-tb">
+                                <p>2016</p>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poster-movie-tb col-poster-tb">
+                        <a href="" class="hover-poster-tb">
+                            <img src="../img/m8.jpg" alt="">
+                            <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                            <span class="lable-new">NEW</span>
+                        </a>
+                        <div class="content-poster-tb">
+                            <h6><a href="">Timeless</a></h6>
+                            <div class="detail-movie-tb">
+                                <p>2016</p>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            <h2 class="sort-down">TOP RATING <span><i class="fas fa-sort-down"></i></span></h2>
+            <div class="col-12 start-movie-responsive top-rating">
+                <div class="col-5 storks-left">
+                    <div class="video-play col-12">
+                        <img src="../img/1.jpg" alt="Storks Left" id="hide-img">
+                        <iframe id="open-iframe" width="100%" height="100%" src="https://www.youtube.com/embed/Q6iK6DjV_iE"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <span id="hide-btn-play" class="middle"><i onclick="myTrailer()"
+                                class="far fa-play-circle"></i></span>
+                    </div>
+                    <div class="video-play-text col-12">
+                        <p>FORCE 2</p>
+                        <p>
+                            <span class="col-2 float-left color-bold">Story Line</span>
+                            <span class="col-1 float-left text-center color-bold">:</span>
+                            <span class="col-9 float-left color-opacity">Presenting the official trailer of Force 2 starring
+                                John Abraham, Sonakshi Sinha and Tahir Raj Bhasin A film by Abhinay Deo, Produced by Vipul
+                                Amrutlal Shah, JA entertainment Pvt. Ltd....</span>
+                        </p>
+                        <p>
+                            <span class="col-2 float-left color-bold">Release On</span>
+                            <span class="col-1 float-left text-center color-bold">:</span>
+                            <span class="col-9 float-left color-opacity">Sep 29, 2016</span>
+                        </p>
+                        <p>
+                            <span class="col-2 float-left color-bold">Genres</span>
+                            <span class="col-1 float-left text-center color-bold">:</span>
+                            <span class="col-9 float-left color-opacity">Drama | Adventure | Family</span>
+                        </p>
+                        <p>
+                            <span class="col-2 float-left color-bold">Star Rating</span>
+                            <span class="col-1 float-left text-center color-bold">:</span>
+                            <span class="col-9 float-left color-opacity rate-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-7 list-movie-top">
+                    <div class="poster-movie-tb col-poster-tb">
+                        <a href="" class="hover-poster-tb">
+                            <img src="../img/m1.jpg" alt="">
+                            <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                            <span class="lable-new">NEW</span>
+                        </a>
+                        <div class="content-poster-tb">
+                            <h6><a href="">Swiss Army Man</a></h6>
+                            <div class="detail-movie-tb">
+                                <p>2016</p>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poster-movie-tb col-poster-tb">
+                        <a href="" class="hover-poster-tb">
+                            <img src="../img/m2.jpg" alt="">
+                            <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                            <span class="lable-new">NEW</span>
+                        </a>
+                        <div class="content-poster-tb">
+                            <h6><a href="">Me Before you</a></h6>
+                            <div class="detail-movie-tb">
+                                <p>2016</p>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poster-movie-tb col-poster-tb">
+                        <a href="" class="hover-poster-tb">
+                            <img src="../img/m3.jpg" alt="">
+                            <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                            <span class="lable-new">NEW</span>
+                        </a>
+                        <div class="content-poster-tb">
+                            <h6><a href="">Deadpool</a></h6>
+                            <div class="detail-movie-tb">
+                                <p>2016</p>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poster-movie-tb col-poster-tb">
+                        <a href="" class="hover-poster-tb">
+                            <img src="../img/m4.jpg" alt="">
+                            <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                            <span class="lable-new">NEW</span>
+                        </a>
+                        <div class="content-poster-tb">
+                            <h6><a href="">Rogue One</a></h6>
+                            <div class="detail-movie-tb">
+                                <p>2016</p>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poster-movie-tb col-poster-tb">
+                        <a href="" class="hover-poster-tb">
+                            <img src="../img/m5.jpg" alt="">
+                            <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                            <span class="lable-new">NEW</span>
+                        </a>
+                        <div class="content-poster-tb">
+                            <h6><a href="">Storks</a></h6>
+                            <div class="detail-movie-tb">
+                                <p>2016</p>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poster-movie-tb col-poster-tb">
+                        <a href="" class="hover-poster-tb">
+                            <img src="../img/m6.jpg" alt="">
+                            <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                            <span class="lable-new">NEW</span>
+                        </a>
+                        <div class="content-poster-tb">
+                            <h6><a href="">Hopeless</a></h6>
+                            <div class="detail-movie-tb">
+                                <p>2016</p>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poster-movie-tb col-poster-tb">
+                        <a href="" class="hover-poster-tb">
+                            <img src="../img/m7.jpg" alt="">
+                            <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                            <span class="lable-new">NEW</span>
+                        </a>
+                        <div class="content-poster-tb">
+                            <h6><a href="">Mechanic</a></h6>
+                            <div class="detail-movie-tb">
+                                <p>2016</p>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poster-movie-tb col-poster-tb">
+                        <a href="" class="hover-poster-tb">
+                            <img src="../img/m8.jpg" alt="">
+                            <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                            <span class="lable-new">NEW</span>
+                        </a>
+                        <div class="content-poster-tb">
+                            <h6><a href="">Timeless</a></h6>
+                            <div class="detail-movie-tb">
+                                <p>2016</p>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-star"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <!-- ------------------------------------------------------------------------------- -->
+        <div class="col-12 start-movie">
+            <div class="col-5 storks-left">
+                <div class="video-play col-12">
+                    <img src="../img/1.jpg" alt="Storks Left" id="hide-img">
+                    <iframe id="open-iframe" width="100%" height="100%" src="https://www.youtube.com/embed/Q6iK6DjV_iE"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <span id="hide-btn-play" class="middle"><i onclick="myTrailer()"
+                            class="far fa-play-circle"></i></span>
+                </div>
+                <div class="video-play-text col-12">
+                    <p>FORCE 2</p>
+                    <p>
+                        <span class="col-2 float-left color-bold">Story Line</span>
+                        <span class="col-1 float-left text-center color-bold">:</span>
+                        <span class="col-9 float-left color-opacity">Presenting the official trailer of Force 2 starring
+                            John Abraham, Sonakshi Sinha and Tahir Raj Bhasin A film by Abhinay Deo, Produced by Vipul
+                            Amrutlal Shah, JA entertainment Pvt. Ltd....</span>
+                    </p>
+                    <p>
+                        <span class="col-2 float-left color-bold">Release On</span>
+                        <span class="col-1 float-left text-center color-bold">:</span>
+                        <span class="col-9 float-left color-opacity">Sep 29, 2016</span>
+                    </p>
+                    <p>
+                        <span class="col-2 float-left color-bold">Genres</span>
+                        <span class="col-1 float-left text-center color-bold">:</span>
+                        <span class="col-9 float-left color-opacity">Drama | Adventure | Family</span>
+                    </p>
+                    <p>
+                        <span class="col-2 float-left color-bold">Star Rating</span>
+                        <span class="col-1 float-left text-center color-bold">:</span>
+                        <span class="col-9 float-left color-opacity rate-star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="col-7 list-movie-top">
+                <div class="poster-movie-tb col-poster-tb">
+                    <a href="" class="hover-poster-tb">
+                        <img src="../img/m1.jpg" alt="">
+                        <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                        <span class="lable-new">NEW</span>
+                    </a>
+                    <div class="content-poster-tb">
+                        <h6><a href="">Swiss Army Man</a></h6>
+                        <div class="detail-movie-tb">
+                            <p>2016</p>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-movie-tb col-poster-tb">
+                    <a href="" class="hover-poster-tb">
+                        <img src="../img/m2.jpg" alt="">
+                        <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                        <span class="lable-new">NEW</span>
+                    </a>
+                    <div class="content-poster-tb">
+                        <h6><a href="">Me Before you</a></h6>
+                        <div class="detail-movie-tb">
+                            <p>2016</p>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-movie-tb col-poster-tb">
+                    <a href="" class="hover-poster-tb">
+                        <img src="../img/m3.jpg" alt="">
+                        <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                        <span class="lable-new">NEW</span>
+                    </a>
+                    <div class="content-poster-tb">
+                        <h6><a href="">Deadpool</a></h6>
+                        <div class="detail-movie-tb">
+                            <p>2016</p>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-movie-tb col-poster-tb">
+                    <a href="" class="hover-poster-tb">
+                        <img src="../img/m4.jpg" alt="">
+                        <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                        <span class="lable-new">NEW</span>
+                    </a>
+                    <div class="content-poster-tb">
+                        <h6><a href="">Rogue One</a></h6>
+                        <div class="detail-movie-tb">
+                            <p>2016</p>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-movie-tb col-poster-tb">
+                    <a href="" class="hover-poster-tb">
+                        <img src="../img/m5.jpg" alt="">
+                        <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                        <span class="lable-new">NEW</span>
+                    </a>
+                    <div class="content-poster-tb">
+                        <h6><a href="">Storks</a></h6>
+                        <div class="detail-movie-tb">
+                            <p>2016</p>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-movie-tb col-poster-tb">
+                    <a href="" class="hover-poster-tb">
+                        <img src="../img/m6.jpg" alt="">
+                        <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                        <span class="lable-new">NEW</span>
+                    </a>
+                    <div class="content-poster-tb">
+                        <h6><a href="">Hopeless</a></h6>
+                        <div class="detail-movie-tb">
+                            <p>2016</p>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-movie-tb col-poster-tb">
+                    <a href="" class="hover-poster-tb">
+                        <img src="../img/m7.jpg" alt="">
+                        <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                        <span class="lable-new">NEW</span>
+                    </a>
+                    <div class="content-poster-tb">
+                        <h6><a href="">Mechanic</a></h6>
+                        <div class="detail-movie-tb">
+                            <p>2016</p>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-movie-tb col-poster-tb">
+                    <a href="" class="hover-poster-tb">
+                        <img src="../img/m8.jpg" alt="">
+                        <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                        <span class="lable-new">NEW</span>
+                    </a>
+                    <div class="content-poster-tb">
+                        <h6><a href="">Timeless</a></h6>
+                        <div class="detail-movie-tb">
+                            <p>2016</p>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------------------------------------------------------------------------- -->
+        <div class="last-movie">
+            <h3 class="type-movie"> Latest <span>Movies</span></h3>
+            <div class="next-prev">
+                <div class="prev">PREV</div>
+                <div class="next">NEXT</div>
+            </div>
+        </div>
+        <!-- ------------------------------------------------------------------------------- -->
+        <div class="list-movie-last">
+            <div class="carousel-block-relative">
+                <div class="carousel-hidden-relative">
+                    <div class="carousel-inner">
+                        <div class="poster-movie-mid">
+                            <a href="" class="hover-poster-mid">
+                                <img src="../img/m1.jpg" alt="">
+                                <div class="play-poster-mid"><i class="far fa-play-circle"></i></div>
+                                <span class="lable-new">NEW</span>
+                            </a>
+                            <div class="content-poster-mid">
+                                <h6><a href="">Swiss Army Man</a></h6>
+                                <div class="detail-movie-mid">
+                                    <p>2016</p>
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </li>
+                                        <li>
+                                            <i class="far fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="far fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="far fa-star"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="poster-movie-mid">
+                            <a href="" class="hover-poster-mid">
+                                <img src="../img/m2.jpg" alt="">
+                                <div class="play-poster-mid"><i class="far fa-play-circle"></i></div>
+                                <span class="lable-new">NEW</span>
+                            </a>
+                            <div class="content-poster-mid">
+                                <h6><a href="">Swiss Army Man</a></h6>
+                                <div class="detail-movie-mid">
+                                    <p>2016</p>
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </li>
+                                        <li>
+                                            <i class="far fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="far fa-star"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="poster-movie-mid">
+                            <a href="" class="hover-poster-mid">
+                                <img src="../img/m3.jpg" alt="">
+                                <div class="play-poster-mid"><i class="far fa-play-circle"></i></div>
+                                <span class="lable-new">NEW</span>
+                            </a>
+                            <div class="content-poster-mid">
+                                <h6><a href="">Swiss Army Man</a></h6>
+                                <div class="detail-movie-mid">
+                                    <p>2016</p>
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </li>
+                                        <li>
+                                            <i class="far fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="far fa-star"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="poster-movie-mid">
+                            <a href="" class="hover-poster-mid">
+                                <img src="../img/m4.jpg" alt="">
+                                <div class="play-poster-mid"><i class="far fa-play-circle"></i></div>
+                                <span class="lable-new">NEW</span>
+                            </a>
+                            <div class="content-poster-mid">
+                                <h6><a href="">Swiss Army Man</a></h6>
+                                <div class="detail-movie-mid">
+                                    <p>2016</p>
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </li>
+                                        <li>
+                                            <i class="far fa-star"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="poster-movie-mid">
+                            <a href="" class="hover-poster-mid">
+                                <img src="../img/m5.jpg" alt="">
+                                <div class="play-poster-mid"><i class="far fa-play-circle"></i></div>
+                                <span class="lable-new">NEW</span>
+                            </a>
+                            <div class="content-poster-mid">
+                                <h6><a href="">Swiss Army Man</a></h6>
+                                <div class="detail-movie-mid">
+                                    <p>2016</p>
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </li>
+                                        <li>
+                                            <i class="far fa-star"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="poster-movie-mid">
+                            <a href="" class="hover-poster-mid">
+                                <img src="../img/m6.jpg" alt="">
+                                <div class="play-poster-mid"><i class="far fa-play-circle"></i></div>
+                                <span class="lable-new">NEW</span>
+                            </a>
+                            <div class="content-poster-mid">
+                                <h6><a href="">Swiss Army Man</a></h6>
+                                <div class="detail-movie-mid">
+                                    <p>2016</p>
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </li>
+                                        <li>
+                                            <i class="far fa-star"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="poster-movie-mid">
+                            <a href="" class="hover-poster-mid">
+                                <img src="../img/m7.jpg" alt="">
+                                <div class="play-poster-mid"><i class="far fa-play-circle"></i></div>
+                                <span class="lable-new">NEW</span>
+                            </a>
+                            <div class="content-poster-mid">
+                                <h6><a href="">Swiss Army Man</a></h6>
+                                <div class="detail-movie-mid">
+                                    <p>2016</p>
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </li>
+                                        <li>
+                                            <i class="far fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="far fa-star"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="poster-movie-mid">
+                            <a href="" class="hover-poster-mid">
+                                <img src="../img/m8.jpg" alt="">
+                                <div class="play-poster-mid"><i class="far fa-play-circle"></i></div>
+                                <span class="lable-new">NEW</span>
+                            </a>
+                            <div class="content-poster-mid">
+                                <h6><a href="">Swiss Army Man</a></h6>
+                                <div class="detail-movie-mid">
+                                    <p>2016</p>
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </li>
+                                        <li>
+                                            <i class="far fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="far fa-star"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="poster-movie-mid">
+                            <a href="" class="hover-poster-mid">
+                                <img src="../img/m9.jpg" alt="">
+                                <div class="play-poster-mid"><i class="far fa-play-circle"></i></div>
+                                <span class="lable-new">NEW</span>
+                            </a>
+                            <div class="content-poster-mid">
+                                <h6><a href="">Swiss Army Man</a></h6>
+                                <div class="detail-movie-mid">
+                                    <p>2016</p>
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </li>
+                                        <li>
+                                            <i class="far fa-star"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------------------------------------------------------------------------- -->
+        <div class="requested-movie">
+            <h3 class="type-movie"> Requested <span>Movies</span></h3>
+        </div>
+        <!-- ------------------------------------------------------------------------------- -->
+        <div class="list-movie-requested">
+            <div class="poster-movie-mid col-poster-mid">
+                <a href="" class="hover-poster-mid">
+                    <img src="../img/m1.jpg" alt="">
+                    <div class="play-poster-mid"><i class="far fa-play-circle"></i></div>
+                    <span class="lable-new">NEW</span>
+                </a>
+                <div class="content-poster-mid">
+                    <h6><a href="">Swiss Army Man</a></h6>
+                    <div class="detail-movie-mid">
+                        <p>2016</p>
+                        <ul>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star-half-alt"></i>
+                            </li>
+                            <li>
+                                <i class="far fa-star"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="poster-movie-mid col-poster-mid">
+                <a href="" class="hover-poster-mid">
+                    <img src="../img/m2.jpg" alt="">
+                    <div class="play-poster-mid"><i class="far fa-play-circle"></i></div>
+                    <span class="lable-new">NEW</span>
+                </a>
+                <div class="content-poster-mid">
+                    <h6><a href="">Me Before you</a></h6>
+                    <div class="detail-movie-mid">
+                        <p>2016</p>
+                        <ul>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star-half-alt"></i>
+                            </li>
+                            <li>
+                                <i class="far fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="far fa-star"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="poster-movie-mid col-poster-mid">
+                <a href="" class="hover-poster-mid">
+                    <img src="../img/m3.jpg" alt="">
+                    <div class="play-poster-mid"><i class="far fa-play-circle"></i></div>
+                    <span class="lable-new">NEW</span>
+                </a>
+                <div class="content-poster-mid">
+                    <h6><a href="">Deadpool</a></h6>
+                    <div class="detail-movie-mid">
+                        <p>2016</p>
+                        <ul>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star-half-alt"></i>
+                            </li>
+                            <li>
+                                <i class="far fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="far fa-star"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="poster-movie-mid col-poster-mid">
+                <a href="" class="hover-poster-mid">
+                    <img src="../img/m4.jpg" alt="">
+                    <div class="play-poster-mid"><i class="far fa-play-circle"></i></div>
+                    <span class="lable-new">NEW</span>
+                </a>
+                <div class="content-poster-mid">
+                    <h6><a href="">Rogue One</a></h6>
+                    <div class="detail-movie-mid">
+                        <p>2016</p>
+                        <ul>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star-half-alt"></i>
+                            </li>
+                            <li>
+                                <i class="far fa-star"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="poster-movie-mid col-poster-mid">
+                <a href="" class="hover-poster-mid">
+                    <img src="../img/m5.jpg" alt="">
+                    <div class="play-poster-mid"><i class="far fa-play-circle"></i></div>
+                    <span class="lable-new">NEW</span>
+                </a>
+                <div class="content-poster-mid">
+                    <h6><a href="">Storks</a></h6>
+                    <div class="detail-movie-mid">
+                        <p>2016</p>
+                        <ul>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star-half-alt"></i>
+                            </li>
+                            <li>
+                                <i class="far fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="far fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="far fa-star"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="poster-movie-mid col-poster-mid">
+                <a href="" class="hover-poster-mid">
+                    <img src="../img/m6.jpg" alt="">
+                    <div class="play-poster-mid"><i class="far fa-play-circle"></i></div>
+                    <span class="lable-new">NEW</span>
+                </a>
+                <div class="content-poster-mid">
+                    <h6><a href="">Hopeless</a></h6>
+                    <div class="detail-movie-mid">
+                        <p>2016</p>
+                        <ul>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star-half-alt"></i>
+                            </li>
+                            <li>
+                                <i class="far fa-star"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="poster-movie-mid col-poster-mid">
+                <a href="" class="hover-poster-mid">
+                    <img src="../img/m7.jpg" alt="">
+                    <div class="play-poster-mid"><i class="far fa-play-circle"></i></div>
+                    <span class="lable-new">NEW</span>
+                </a>
+                <div class="content-poster-mid">
+                    <h6><a href="">Mechanic</a></h6>
+                    <div class="detail-movie-mid">
+                        <p>2016</p>
+                        <ul>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star-half-alt"></i>
+                            </li>
+                            <li>
+                                <i class="far fa-star"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="poster-movie-mid col-poster-mid">
+                <a href="" class="hover-poster-mid">
+                    <img src="../img/m8.jpg" alt="">
+                    <div class="play-poster-mid"><i class="far fa-play-circle"></i></div>
+                    <span class="lable-new">NEW</span>
+                </a>
+                <div class="content-poster-mid">
+                    <h6><a href="">Timeless</a></h6>
+                    <div class="detail-movie-mid">
+                        <p>2016</p>
+                        <ul>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star-half-alt"></i>
+                            </li>
+                            <li>
+                                <i class="far fa-star"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="poster-movie-mid col-poster-mid">
+                <a href="" class="hover-poster-mid">
+                    <img src="../img/m9.jpg" alt="">
+                    <div class="play-poster-mid"><i class="far fa-play-circle"></i></div>
+                    <span class="lable-new">NEW</span>
+                </a>
+                <div class="content-poster-mid">
+                    <h6><a href="">Inferno</a></h6>
+                    <div class="detail-movie-mid">
+                        <p>2016</p>
+                        <ul>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star-half-alt"></i>
+                            </li>
+                            <li>
+                                <i class="far fa-star"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="poster-movie-mid col-poster-mid">
+                <a href="" class="hover-poster-mid">
+                    <img src="../img/m10.jpg" alt="">
+                    <div class="play-poster-mid"><i class="far fa-play-circle"></i></div>
+                    <span class="lable-new">NEW</span>
+                </a>
+                <div class="content-poster-mid">
+                    <h6><a href="">Warcraft</a></h6>
+                    <div class="detail-movie-mid">
+                        <p>2016</p>
+                        <ul>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star-half-alt"></i>
+                            </li>
+                            <li>
+                                <i class="far fa-star"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------------------------------------------------------------------------- -->
+        <div class="top-movie">
+            <h3 class="type-movie"> Top <span>Movies</span></h3>
+        </div>
+        <!-- ------------------------------------------------------------------------------- -->
+        <div class="col-12 end-movie">
+            <div class="col-7 list-movie-top">
+                <div class="poster-movie-tb col-poster-tb">
+                    <a href="" class="hover-poster-tb">
+                        <img src="../img/m1.jpg" alt="">
+                        <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                        <span class="lable-new">NEW</span>
+                    </a>
+                    <div class="content-poster-tb">
+                        <h6><a href="">Swiss Army Man</a></h6>
+                        <div class="detail-movie-tb">
+                            <p>2016</p>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-movie-tb col-poster-tb">
+                    <a href="" class="hover-poster-tb">
+                        <img src="../img/m2.jpg" alt="">
+                        <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                        <span class="lable-new">NEW</span>
+                    </a>
+                    <div class="content-poster-tb">
+                        <h6><a href="">Me Before you</a></h6>
+                        <div class="detail-movie-tb">
+                            <p>2016</p>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-movie-tb col-poster-tb">
+                    <a href="" class="hover-poster-tb">
+                        <img src="../img/m3.jpg" alt="">
+                        <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                        <span class="lable-new">NEW</span>
+                    </a>
+                    <div class="content-poster-tb">
+                        <h6><a href="">Deadpool</a></h6>
+                        <div class="detail-movie-tb">
+                            <p>2016</p>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-movie-tb col-poster-tb">
+                    <a href="" class="hover-poster-tb">
+                        <img src="../img/m4.jpg" alt="">
+                        <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                        <span class="lable-new">NEW</span>
+                    </a>
+                    <div class="content-poster-tb">
+                        <h6><a href="">Rogue One</a></h6>
+                        <div class="detail-movie-tb">
+                            <p>2016</p>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-movie-tb col-poster-tb">
+                    <a href="" class="hover-poster-tb">
+                        <img src="../img/m5.jpg" alt="">
+                        <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                        <span class="lable-new">NEW</span>
+                    </a>
+                    <div class="content-poster-tb">
+                        <h6><a href="">Storks</a></h6>
+                        <div class="detail-movie-tb">
+                            <p>2016</p>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-movie-tb col-poster-tb">
+                    <a href="" class="hover-poster-tb">
+                        <img src="../img/m6.jpg" alt="">
+                        <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                        <span class="lable-new">NEW</span>
+                    </a>
+                    <div class="content-poster-tb">
+                        <h6><a href="">Hopeless</a></h6>
+                        <div class="detail-movie-tb">
+                            <p>2016</p>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-movie-tb col-poster-tb">
+                    <a href="" class="hover-poster-tb">
+                        <img src="../img/m7.jpg" alt="">
+                        <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                        <span class="lable-new">NEW</span>
+                    </a>
+                    <div class="content-poster-tb">
+                        <h6><a href="">Mechanic</a></h6>
+                        <div class="detail-movie-tb">
+                            <p>2016</p>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-movie-tb col-poster-tb">
+                    <a href="" class="hover-poster-tb">
+                        <img src="../img/m8.jpg" alt="">
+                        <div class="play-poster-tb"><i class="far fa-play-circle"></i></div>
+                        <span class="lable-new">NEW</span>
+                    </a>
+                    <div class="content-poster-tb">
+                        <h6><a href="">Timeless</a></h6>
+                        <div class="detail-movie-tb">
+                            <p>2016</p>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="far fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-5 storks-right">
+                <div class="video-play col-12">
+                    <img src="../img/1.jpg" alt="Storks Left">
+                    <span class="middle"><i class="far fa-play-circle"></i></span>
+                </div>
+                <div class="video-play-text col-12">
+                    <p>FORCE 2</p>
+                    <p>
+                        <span class="col-2 float-left color-bold">Story Line</span>
+                        <span class="col-1 float-left text-center color-bold">:</span>
+                        <span class="col-9 float-left color-opacity">Presenting the official trailer of Force 2 starring
+                            John Abraham, Sonakshi Sinha and Tahir Raj Bhasin A film by Abhinay Deo, Produced by Vipul
+                            Amrutlal Shah, JA entertainment Pvt. Ltd....</span>
+                    </p>
+                    <p>
+                        <span class="col-2 float-left color-bold">Release On</span>
+                        <span class="col-1 float-left text-center color-bold">:</span>
+                        <span class="col-9 float-left color-opacity">Sep 29, 2016</span>
+                    </p>
+                    <p>
+                        <span class="col-2 float-left color-bold">Genres</span>
+                        <span class="col-1 float-left text-center color-bold">:</span>
+                        <span class="col-9 float-left color-opacity">Drama | Adventure | Family</span>
+                    </p>
+                    <p>
+                        <span class="col-2 float-left color-bold">Star Rating</span>
+                        <span class="col-1 float-left text-center color-bold">:</span>
+                        <span class="col-9 float-left color-opacity rate-star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!----------------------------------------------------------->
+    </div>
+    <!-- ------------------------------------------------------------------------------- -->
+
+    <footer>
+        <div class="contact">
+            <h2>SIGN UP FOR OUR NEWSLETTER</h2>
+            <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus
+                tristique bibendum. Donec rutrum sed sem quis venenatis.
+            </p>
+            <div class="your-email">
+                <form action="#" method="post">
+                    <input type="email" name="Email" placeholder="Enter your email...." required=" ">
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+            <div class="main-footer">
+                <div class="col-footer color-a">
+                    <h4>Release</h4>
+                    <ul>
+                        <li><a href="#">2016</a></li>
+                        <li><a href="#">2015</a></li>
+                        <li><a href="#">2014</a></li>
+                        <li><a href="#">2013</a></li>
+                        <li><a href="#">2012</a></li>
+                        <li><a href="#">2011</a></li>
+                    </ul>
+                </div>
+                <div class="col-footer color-a">
+                    <h4>Movies</h4>
+                    <ul>
+                        <li><a href="#">ADVENTURE</a></li>
+                        <li><a href="#">COMEDY</a></li>
+                        <li><a href="#">FANTASY</a></li>
+                        <li><a href="#">ACTION</a></li>
+                        <li><a href="#">MOVIES</a></li>
+                        <li><a href="#">HORROR</a></li>
+                    </ul>
+                </div>
+                <div class="col-footer">
+                    <h4>REVIEW MOVIES</h4>
+                    <ul class="btn-review-movies">
+                        <li><a href="#">Comedy</a></li>
+                        <li><a href="#">Horror</a></li>
+                        <li><a href="#">Historical</a></li>
+                        <li><a href="#">Romantic</a></li>
+                        <li><a href="#">Love</a></li>
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Comedy</a></li>
+                        <li><a href="#">Horror</a></li>
+                        <li><a href="#">Historical</a></li>
+                        <li><a href="#">Romantic</a></li>
+                        <li><a href="#">Love</a></li>
+                        <li><a href="#">Comedy</a></li>
+                        <li><a href="#">Horror</a></li>
+                        <li><a href="#">Historical</a></li>
+                    </ul>
+                </div>
+                <div class="col-footer">
+                    <h4>LATEST MOVIES</h4>
+                    <div class="item-latest">
+                        <div class="latest-img">
+                            <a href=""><img src="../img/1.jpg" alt=""></a>
+                        </div>
+                        <div class="latest-img-detail">
+                            <a href="">Eveniet Ut Molesti</a>
+                        </div>
+                    </div>
+                    <div class="item-latest">
+                        <div class="latest-img">
+                            <a href=""><img src="../img/2.jpg" alt=""></a>
+                        </div>
+                        <div class="latest-img-detail">
+                            <a href="">Eveniet Ut Molesti</a>
+                        </div>
+                    </div>
+                    <div class="item-latest">
+                        <div class="latest-img">
+                            <a href=""><img src="../img/3.jpg" alt=""></a>
+                        </div>
+                        <div class="latest-img-detail">
+                            <a href="">Eveniet Ut Molesti</a>
+                        </div>
+                    </div>
+                    <div class="item-latest">
+                        <div class="latest-img">
+                            <a href=""><img src="../img/4.jpg" alt=""></a>
+                        </div>
+                        <div class="latest-img-detail">
+                            <a href="">Eveniet Ut Molesti</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-footer">
+                    <h4 class="logo-footer">
+                        <a href=""><span>M</span>OVIES <span>P</span>RO</a></h4>
+                    </h4>
+                    <div class="grid-img">
+                        <div class="col-4">
+                            <a href=""><img src="../img/m1.jpg" alt=""></a>
+                        </div>
+                        <div class="col-4">
+                            <a href=""><img src="../img/m2.jpg" alt=""></a>
+                        </div>
+                        <div class="col-4">
+                            <a href=""><img src="../img/m3.jpg" alt=""></a>
+                        </div>
+                        <div class="col-4">
+                            <a href=""><img src="../img/m4.jpg" alt=""></a>
+                        </div>
+                        <div class="col-4">
+                            <a href=""><img src="../img/m5.jpg" alt=""></a>
+                        </div>
+                        <div class="col-4">
+                            <a href=""><img src="../img/m6.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-link">
+                <div>
+                    <a href="">ICONS</a>
+                    <a href="">SHORT CODES</a>
+                    <a href="">CONTACT</a>
+                </div>
+            </div>
+            <div class="connect-us">
+                <h3>CONNECT US</h3>
+                <div>
+                    <ul>
+                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin-in"></i></i></a></li>
+                        <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                        <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <p id="back-top"></p>
+    <div id="mask-login"></div>
+    <!-- <script src="../js/all.js"></script> -->
+    <script src="../js/Home.js"></script>
+</body>
+
+</html>
